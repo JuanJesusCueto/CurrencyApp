@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF45E72E25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E72D25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift */; };
+		DF45E72F25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E72D25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift */; };
+		DF45E73025E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E72D25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift */; };
+		DF45E73725E8277500AC95E1 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF45E73625E8277500AC95E1 /* Currencies.plist */; };
+		DF45E73825E8277500AC95E1 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF45E73625E8277500AC95E1 /* Currencies.plist */; };
+		DF45E73925E8277500AC95E1 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF45E73625E8277500AC95E1 /* Currencies.plist */; };
 		DF5CAF0725E7E4ED008DC3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAF0625E7E4ED008DC3F2 /* AppDelegate.swift */; };
 		DF5CAF0925E7E4ED008DC3F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAF0825E7E4ED008DC3F2 /* SceneDelegate.swift */; };
 		DF5CAF0B25E7E4ED008DC3F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAF0A25E7E4ED008DC3F2 /* ViewController.swift */; };
@@ -55,6 +61,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF45E72D25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAExchangeRepositoryProtocol.swift; sourceTree = "<group>"; };
+		DF45E73625E8277500AC95E1 /* Currencies.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Currencies.plist; sourceTree = "<group>"; };
 		DF5CAF0325E7E4EC008DC3F2 /* Currency App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5CAF0625E7E4ED008DC3F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5CAF0825E7E4ED008DC3F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF45E72C25E8231200AC95E1 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E72D25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
 		DF5CAEFA25E7E4EC008DC3F2 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +225,7 @@
 				DF5CAF6D25E7E708008DC3F2 /* Info Dev.plist */,
 				DF5CAF1425E7E4EE008DC3F2 /* Info.plist */,
 				DF5CAFAC25E7FBCC008DC3F2 /* Localizable.strings */,
+				DF45E73625E8277500AC95E1 /* Currencies.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -279,6 +296,7 @@
 		DF5CAFB725E7FD1F008DC3F2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				DF45E72C25E8231200AC95E1 /* Exchange */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -437,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF45E73725E8277500AC95E1 /* Currencies.plist in Resources */,
 				DF5CAF1325E7E4EE008DC3F2 /* LaunchScreen.storyboard in Resources */,
 				DF5CAFA825E7FBCC008DC3F2 /* Localizable.strings in Resources */,
 				DF5CAF1025E7E4EE008DC3F2 /* Assets.xcassets in Resources */,
@@ -467,6 +486,7 @@
 				DF5CAF4825E7E64F008DC3F2 /* Assets.xcassets in Resources */,
 				DF5CAF7525E7E712008DC3F2 /* Info UAT.plist in Resources */,
 				DF5CAF4925E7E64F008DC3F2 /* Exchange.storyboard in Resources */,
+				DF45E73825E8277500AC95E1 /* Currencies.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +499,7 @@
 				DF5CAF6225E7E655008DC3F2 /* Assets.xcassets in Resources */,
 				DF5CAF6325E7E655008DC3F2 /* Exchange.storyboard in Resources */,
 				DF5CAF6E25E7E708008DC3F2 /* Info Dev.plist in Resources */,
+				DF45E73925E8277500AC95E1 /* Currencies.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF45E72E25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift in Sources */,
 				DF5CAF0B25E7E4ED008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF0725E7E4ED008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF0925E7E4ED008DC3F2 /* SceneDelegate.swift in Sources */,
@@ -516,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF45E72F25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift in Sources */,
 				DF5CAF4225E7E64F008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF4325E7E64F008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF4425E7E64F008DC3F2 /* SceneDelegate.swift in Sources */,
@@ -527,6 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF45E73025E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift in Sources */,
 				DF5CAF5C25E7E655008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF5D25E7E655008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF5E25E7E655008DC3F2 /* SceneDelegate.swift in Sources */,
