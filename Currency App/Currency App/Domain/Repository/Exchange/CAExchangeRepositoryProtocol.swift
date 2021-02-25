@@ -8,5 +8,5 @@
 import Foundation
 
 protocol CAExchangeRepositoryProtocol: class {
-    func getAllCurrencies(success: @escaping() -> Void, failure: @escaping() -> Void)
+    func getAllCurrencies(success: @escaping(CACurrencies) -> Void, failure: @escaping() -> Void)
 }

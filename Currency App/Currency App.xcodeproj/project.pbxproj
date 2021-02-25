@@ -13,6 +13,21 @@
 		DF45E73725E8277500AC95E1 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF45E73625E8277500AC95E1 /* Currencies.plist */; };
 		DF45E73825E8277500AC95E1 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF45E73625E8277500AC95E1 /* Currencies.plist */; };
 		DF45E73925E8277500AC95E1 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF45E73625E8277500AC95E1 /* Currencies.plist */; };
+		DF45E74125E82D7800AC95E1 /* CACurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E74025E82D7800AC95E1 /* CACurrency.swift */; };
+		DF45E74225E82D7800AC95E1 /* CACurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E74025E82D7800AC95E1 /* CACurrency.swift */; };
+		DF45E74325E82D7800AC95E1 /* CACurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E74025E82D7800AC95E1 /* CACurrency.swift */; };
+		DF45E75025E82DFF00AC95E1 /* CAExchangeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E74F25E82DFF00AC95E1 /* CAExchangeRepository.swift */; };
+		DF45E75125E82DFF00AC95E1 /* CAExchangeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E74F25E82DFF00AC95E1 /* CAExchangeRepository.swift */; };
+		DF45E75225E82DFF00AC95E1 /* CAExchangeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E74F25E82DFF00AC95E1 /* CAExchangeRepository.swift */; };
+		DF45E75F25E82F9A00AC95E1 /* CAExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E75E25E82F9A00AC95E1 /* CAExtension.swift */; };
+		DF45E76025E82F9A00AC95E1 /* CAExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E75E25E82F9A00AC95E1 /* CAExtension.swift */; };
+		DF45E76125E82F9A00AC95E1 /* CAExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E75E25E82F9A00AC95E1 /* CAExtension.swift */; };
+		DF45E76925E8305900AC95E1 /* CACurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E76825E8305900AC95E1 /* CACurrencyModel.swift */; };
+		DF45E76A25E8305900AC95E1 /* CACurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E76825E8305900AC95E1 /* CACurrencyModel.swift */; };
+		DF45E76B25E8305900AC95E1 /* CACurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E76825E8305900AC95E1 /* CACurrencyModel.swift */; };
+		DF45E77825E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E77725E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift */; };
+		DF45E77925E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E77725E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift */; };
+		DF45E77A25E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45E77725E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift */; };
 		DF5CAF0725E7E4ED008DC3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAF0625E7E4ED008DC3F2 /* AppDelegate.swift */; };
 		DF5CAF0925E7E4ED008DC3F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAF0825E7E4ED008DC3F2 /* SceneDelegate.swift */; };
 		DF5CAF0B25E7E4ED008DC3F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAF0A25E7E4ED008DC3F2 /* ViewController.swift */; };
@@ -63,6 +78,11 @@
 /* Begin PBXFileReference section */
 		DF45E72D25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAExchangeRepositoryProtocol.swift; sourceTree = "<group>"; };
 		DF45E73625E8277500AC95E1 /* Currencies.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Currencies.plist; sourceTree = "<group>"; };
+		DF45E74025E82D7800AC95E1 /* CACurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACurrency.swift; sourceTree = "<group>"; };
+		DF45E74F25E82DFF00AC95E1 /* CAExchangeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAExchangeRepository.swift; sourceTree = "<group>"; };
+		DF45E75E25E82F9A00AC95E1 /* CAExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAExtension.swift; sourceTree = "<group>"; };
+		DF45E76825E8305900AC95E1 /* CACurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACurrencyModel.swift; sourceTree = "<group>"; };
+		DF45E77725E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAExchangeCurrencyUseCase.swift; sourceTree = "<group>"; };
 		DF5CAF0325E7E4EC008DC3F2 /* Currency App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5CAF0625E7E4ED008DC3F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5CAF0825E7E4ED008DC3F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +151,38 @@
 			isa = PBXGroup;
 			children = (
 				DF45E72D25E8233000AC95E1 /* CAExchangeRepositoryProtocol.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		DF45E73F25E82D6900AC95E1 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E74025E82D7800AC95E1 /* CACurrency.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		DF45E74E25E82DE600AC95E1 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E74F25E82DFF00AC95E1 /* CAExchangeRepository.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		DF45E76725E8304300AC95E1 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E76825E8305900AC95E1 /* CACurrencyModel.swift */,
+			);
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		DF45E77625E830CA00AC95E1 /* Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				DF45E77725E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift */,
 			);
 			path = Exchange;
 			sourceTree = "<group>";
@@ -267,6 +319,7 @@
 		DF5CAFB325E7FCAA008DC3F2 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				DF45E74E25E82DE600AC95E1 /* Exchange */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -274,6 +327,7 @@
 		DF5CAFB425E7FCB7008DC3F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF45E73F25E82D6900AC95E1 /* Exchange */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +343,7 @@
 			isa = PBXGroup;
 			children = (
 				DF5CAFBF25E81A0C008DC3F2 /* CAKeys.swift */,
+				DF45E75E25E82F9A00AC95E1 /* CAExtension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -304,6 +359,7 @@
 		DF5CAFB825E7FD27008DC3F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF45E76725E8304300AC95E1 /* Exchange */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,6 +367,7 @@
 		DF5CAFB925E7FD2E008DC3F2 /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				DF45E77625E830CA00AC95E1 /* Exchange */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -514,7 +571,12 @@
 				DF5CAF0B25E7E4ED008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF0725E7E4ED008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF0925E7E4ED008DC3F2 /* SceneDelegate.swift in Sources */,
+				DF45E74125E82D7800AC95E1 /* CACurrency.swift in Sources */,
+				DF45E75F25E82F9A00AC95E1 /* CAExtension.swift in Sources */,
 				DF5CAFC025E81A0C008DC3F2 /* CAKeys.swift in Sources */,
+				DF45E76925E8305900AC95E1 /* CACurrencyModel.swift in Sources */,
+				DF45E75025E82DFF00AC95E1 /* CAExchangeRepository.swift in Sources */,
+				DF45E77825E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +604,12 @@
 				DF5CAF4225E7E64F008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF4325E7E64F008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF4425E7E64F008DC3F2 /* SceneDelegate.swift in Sources */,
+				DF45E74225E82D7800AC95E1 /* CACurrency.swift in Sources */,
+				DF45E76025E82F9A00AC95E1 /* CAExtension.swift in Sources */,
 				DF5CAFC125E81A0C008DC3F2 /* CAKeys.swift in Sources */,
+				DF45E76A25E8305900AC95E1 /* CACurrencyModel.swift in Sources */,
+				DF45E75125E82DFF00AC95E1 /* CAExchangeRepository.swift in Sources */,
+				DF45E77925E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,7 +621,12 @@
 				DF5CAF5C25E7E655008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF5D25E7E655008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF5E25E7E655008DC3F2 /* SceneDelegate.swift in Sources */,
+				DF45E74325E82D7800AC95E1 /* CACurrency.swift in Sources */,
+				DF45E76125E82F9A00AC95E1 /* CAExtension.swift in Sources */,
 				DF5CAFC225E81A0C008DC3F2 /* CAKeys.swift in Sources */,
+				DF45E76B25E8305900AC95E1 /* CACurrencyModel.swift in Sources */,
+				DF45E75225E82DFF00AC95E1 /* CAExchangeRepository.swift in Sources */,
+				DF45E77A25E830DB00AC95E1 /* CAExchangeCurrencyUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
