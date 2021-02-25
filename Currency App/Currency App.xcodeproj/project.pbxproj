@@ -180,6 +180,10 @@
 		DF5CAF3D25E7E547008DC3F2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				DF5CAFB625E7FCC3008DC3F2 /* Util */,
+				DF5CAFB525E7FCBC008DC3F2 /* DataSource */,
+				DF5CAFB425E7FCB7008DC3F2 /* Model */,
+				DF5CAFB325E7FCAA008DC3F2 /* Repository */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -187,6 +191,9 @@
 		DF5CAF3E25E7E54C008DC3F2 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				DF5CAFB925E7FD2E008DC3F2 /* UseCase */,
+				DF5CAFB825E7FD27008DC3F2 /* Model */,
+				DF5CAFB725E7FD1F008DC3F2 /* Repository */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -234,6 +241,55 @@
 				DF5CAF0A25E7E4ED008DC3F2 /* ViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DF5CAFB325E7FCAA008DC3F2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DF5CAFB425E7FCB7008DC3F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF5CAFB525E7FCBC008DC3F2 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		DF5CAFB625E7FCC3008DC3F2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DF5CAFB725E7FD1F008DC3F2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DF5CAFB825E7FD27008DC3F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF5CAFB925E7FD2E008DC3F2 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
