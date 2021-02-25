@@ -32,6 +32,9 @@
 		DF5CAFA825E7FBCC008DC3F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5CAFAC25E7FBCC008DC3F2 /* Localizable.strings */; };
 		DF5CAFA925E7FBCC008DC3F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5CAFAC25E7FBCC008DC3F2 /* Localizable.strings */; };
 		DF5CAFAA25E7FBCC008DC3F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF5CAFAC25E7FBCC008DC3F2 /* Localizable.strings */; };
+		DF5CAFC025E81A0C008DC3F2 /* CAKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAFBF25E81A0C008DC3F2 /* CAKeys.swift */; };
+		DF5CAFC125E81A0C008DC3F2 /* CAKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAFBF25E81A0C008DC3F2 /* CAKeys.swift */; };
+		DF5CAFC225E81A0C008DC3F2 /* CAKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CAFBF25E81A0C008DC3F2 /* CAKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,7 @@
 		DF5CAF9925E7FBA1008DC3F2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
 		DF5CAFAB25E7FBCC008DC3F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DF5CAFB225E7FBCF008DC3F2 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DF5CAFBF25E81A0C008DC3F2 /* CAKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +271,7 @@
 		DF5CAFB625E7FCC3008DC3F2 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				DF5CAFBF25E81A0C008DC3F2 /* CAKeys.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -487,6 +492,7 @@
 				DF5CAF0B25E7E4ED008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF0725E7E4ED008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF0925E7E4ED008DC3F2 /* SceneDelegate.swift in Sources */,
+				DF5CAFC025E81A0C008DC3F2 /* CAKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +519,7 @@
 				DF5CAF4225E7E64F008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF4325E7E64F008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF4425E7E64F008DC3F2 /* SceneDelegate.swift in Sources */,
+				DF5CAFC125E81A0C008DC3F2 /* CAKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +530,7 @@
 				DF5CAF5C25E7E655008DC3F2 /* ViewController.swift in Sources */,
 				DF5CAF5D25E7E655008DC3F2 /* AppDelegate.swift in Sources */,
 				DF5CAF5E25E7E655008DC3F2 /* SceneDelegate.swift in Sources */,
+				DF5CAFC225E81A0C008DC3F2 /* CAKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
