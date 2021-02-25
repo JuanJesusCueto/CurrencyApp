@@ -6,3 +6,21 @@
 //
 
 import Foundation
+
+internal struct CAKeys {
+}
+
+// MARK: - UIController's identifiers - Segues
+internal struct Storyboard {
+    // CounterList
+    static let exchange = "Exchange"
+    
+    internal struct Segue {
+    }
+    
+    internal struct Controller {
+    }
+    
+    internal struct Images {
+    }
+}
